@@ -5,10 +5,10 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { AuthLayout } from './components'
 import Home from "./pages/Home.jsx"
-import Signup from './pages/signup.jsx'
-import Login from './pages/login.jsx'
-import Settings from './pages/settings.jsx'
-import Profile from './pages/profile.jsx'
+import Signup from './pages/Signup.jsx'
+import Login from './pages/Login.jsx'
+import Settings from './pages/Settings.jsx'
+import Profile from './pages/Profile.jsx'
 
 const router = createBrowserRouter([
   {
